@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
-import 'package:techninja/home.dart';
-import 'package:techninja/questions.dart';
-import 'package:techninja/result.dart';
+import 'package:techninja/pages/home.dart';
+import 'package:techninja/pages/questions.dart';
+import 'package:techninja/pages/result.dart';
 
 void main() {
   return runApp(Techninja());
