@@ -1,5 +1,7 @@
 class Questionsmodel {
-  final String question, userSelected, orginalAnswer;
-  final List<String> options;
-  Questionsmodel(this.question, this.userSelected, this.orginalAnswer, this.options);
+  final String question, orginalAnswer;
+  String selectedAnswer;
+  final List<dynamic> options;
+  Questionsmodel(
+      this.question, this.selectedAnswer, this.orginalAnswer, this.options);
 }

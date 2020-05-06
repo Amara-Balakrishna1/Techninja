@@ -1,7 +1,11 @@
+import 'dart:ui';
+
 import "package:flutter/material.dart";
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:techninja/models/techstackmodel.dart';
+import 'package:techninja/models/argumentsmodal.dart';
+
 // import 'package:http/http.dart' as http;
 
 class Home extends StatefulWidget {
@@ -34,25 +38,32 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: SafeArea(
+    return Scaffold(
+      appBar: AppBar(title: Text("Tap a tile to Proceed")),
+      body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
           child: Wrap(
-            direction: Axis.horizontal,
+              direction: Axis.horizontal,
               children: stacks.map((e) {
-        return Container(
-            height: 80.0,
-            width: 150.0,
-            margin: EdgeInsets.all(20.0),
-            color: Colors.amber,
-            padding: EdgeInsets.all(10.0),
-            child: FlatButton(
-                onPressed: () {
-                  Navigator.of(context).pushNamed('/Questions');
-                },
-                padding: EdgeInsets.all(10.0),
-                child: Text(e.techName)));
-      }).toList())),
+                return Container(
+                    height: 80.0,
+                    width: 150.0,
+                    decoration: BoxDecoration(
+                        color: Colors.blue[200],
+                        borderRadius: BorderRadius.circular(10.0),
+                        border: Border.all(width: 2.0, color: Colors.blue)),
+                    margin: EdgeInsets.all(20.0),
+                    padding: EdgeInsets.all(10.0),
+                    child: FlatButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context,'/Rating',arguments:PageArguments(e.techName));
+                        },
+                        padding: EdgeInsets.all(10.0),
+                        child: Text(
+                          e.techName,
+                          style: TextStyle(fontSize: 16.0, color: Colors.white),
+                        )));
+              }).toList())),
     );
   }
 }

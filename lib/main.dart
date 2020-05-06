@@ -1,7 +1,5 @@
 import "package:flutter/material.dart";
-import 'package:techninja/pages/home.dart';
-import 'package:techninja/pages/questions.dart';
-import 'package:techninja/pages/result.dart';
+import "package:techninja/route.dart" as router;
 
 void main() {
   return runApp(Techninja());
@@ -12,11 +10,7 @@ class Techninja extends StatelessWidget {
     return MaterialApp(
       // home: Home(),
       initialRoute: '/',
-      routes: {
-        '/': (context) => Home(),
-        '/Questions': (context) => Questions(),
-        '/Result': (context) => Result()
-      },
+      onGenerateRoute: router.generateRoute,
     );
   }
 }
