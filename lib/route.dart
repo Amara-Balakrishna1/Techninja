@@ -15,11 +15,11 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     }
     case '/Questions':
       {
-        return MaterialPageRoute(builder: (context) => QuestionsPage());
+        return MaterialPageRoute(builder: (context) => QuestionsPage(rating: settings.arguments));
       }
     case '/Result':
       {
-        return MaterialPageRoute(builder: (context) => Result());
+        return MaterialPageRoute(builder: (context) => Result(percentage: settings.arguments));
       }
       default: return MaterialPageRoute(builder: (context) => Home());
   }

@@ -6,7 +6,8 @@ import 'package:techninja/models/questionsmodel.dart';
 import 'package:techninja/widgets/questionWidget.dart';
 
 class QuestionsPage extends StatefulWidget {
-  const QuestionsPage({Key key}) : super(key: key);
+  final int rating;
+  const QuestionsPage({Key key, this.rating}) : super(key: key);
 
   @override
   _QuestionsPageState createState() => _QuestionsPageState();
@@ -15,6 +16,7 @@ class QuestionsPage extends StatefulWidget {
 class _QuestionsPageState extends State<QuestionsPage> {
   List<Questionsmodel> questions = [];
   int activeQuestion = 0;
+  // String pageInfo = widget.pageInfo.pageInfo;
   getQuestions() async {
     var data = await rootBundle.loadString('assets/json/Questions.json');
     var jsonResult = jsonDecode(data);
@@ -25,16 +27,28 @@ class _QuestionsPageState extends State<QuestionsPage> {
           data["selectedAnswer"], data["orginalAnswer"], data["options"]);
       newquestions.add(stack);
     }
-    var rng = new Random();
-    var nums = new List.generate(10, (_) => rng.nextInt(newquestions.length));
-    nums.shuffle();
-    for (int i = 0; i < nums.length; i++) {
-      selectedQuestions.add(newquestions[nums[i]]);
-    }
+    if (newquestions.length > 0) {
+      int mean = (newquestions.length / 3).round(), rating = this.widget.rating;
+      List<int> nums = getRandomTen((rating - 1) * mean);
+      for (int i = 0; i < nums.length; i++) {
+        selectedQuestions.add(newquestions[nums[i]]);
+      }
 
-    setState(() {
-      questions = selectedQuestions;
-    });
+      setState(() {
+        questions = selectedQuestions;
+      });
+    }
+  }
+
+  List getRandomTen(int min) {
+    List<int> randomInt = [];
+    var rng = new Random();
+    int value = min;
+    while (randomInt.length < 10) {
+      value += rng.nextInt(10) % 2 == 0 ? 2 : 1;
+      randomInt.add(value);
+    }
+    return randomInt;
   }
 
   void setActiveQuestion() {
@@ -66,22 +80,42 @@ class _QuestionsPageState extends State<QuestionsPage> {
             child: Column(children: [
               questions.length != 0
                   ? questionWidget(questions[activeQuestion],
-                      activeQuestion + 1, setSelectedOption)
+                      activeQuestion + 1, setSelectedOption, questions.length)
                   : Text("Loading ..."),
-              activeQuestion == (questions.length - 1)
-                  ? FlatButton(
-                      color: Colors.blue[200],
-                      onPressed: () {
-                        Navigator.of(context).pushNamed('/Result');
-                      },
-                      child: Text("Submit"))
-                  : FlatButton(
-                      color: Colors.blue,
-                      onPressed: setActiveQuestion,
-                      child: Text(
-                        "Next Question",
-                        style: TextStyle(color: Colors.white),
-                      ))
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                FlatButton(
+                    color: Colors.blue,
+                    onPressed: setActiveQuestion,
+                    child: Text(
+                      "Back",
+                      style: TextStyle(color: Colors.white),
+                    )),
+                SizedBox(
+                  width: 10.0,
+                ),
+                activeQuestion == (questions.length - 1)
+                    ? FlatButton(
+                        color: Colors.blue[200],
+                        onPressed: () {
+                          int marks = 0;
+                          questions.forEach((element) {
+                            if (element.selectedAnswer ==
+                                element.orginalAnswer) {
+                              marks++;
+                            }
+                          });
+                          Navigator.of(context).pushNamed('/Result',
+                              arguments: (marks / questions.length));
+                        },
+                        child: Text("Submit"))
+                    : FlatButton(
+                        color: Colors.blue,
+                        onPressed: setActiveQuestion,
+                        child: Text(
+                          "Next",
+                          style: TextStyle(color: Colors.white),
+                        ))
+              ])
             ])));
   }
 }

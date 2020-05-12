@@ -1,332 +1,749 @@
 [
   {
-    "question": "Question0",
+    "question": "What does HTML stand for?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "Hypertext Markup Language",
+      "HomeTool Makeup Language",
+      "Hyperlinks and Text Marking Language",
+      "None of the above"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "Hypertext Markup Language"
   },
   {
-    "question": "Question1",
+    "question": "Which of the following is not a browser?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "Opera",
+      "Mozilla",
+      "Safari",
+      "Webstrom"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "Webstrom"
   },
   {
-    "question": "Question2",
+    "question": "What are the uses of HTML?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "Client-side storage",
+      "Game development usage",
+      "Web pages development",
+      "All of the above"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "All of the above"
   },
   {
-    "question": "Question3",
+    "question": "Which of the followiing is not a HTML Tag?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "datalist",
+      "dd",
+      "table",
+      "avatar"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "avatar"
   },
   {
-    "question": "Question4",
+    "question": "Who is making the Web standards?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "Google",
+      "Mozilla",
+      "Microsoft",
+      "The World Wide Web Consortium"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "The World Wide Web Consortium"
   },
   {
-    "question": "Question5",
+    "question": "Choose the correct HTML element for the largest heading:",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<h1>",
+      "<h6>",
+      "<heading>",
+      "<head>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<h1>"
   },
   {
-    "question": "Question6",
+    "question": "What is the correct HTML for adding a background color?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<body bg='yellow'>",
+      "<body style='background-color:yellow;'>",
+      "<background>Yellow</background>",
+      "<body class='Yellow'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<body style='background-color:yellow;'>"
   },
   {
-    "question": "Question7adfsadfdfafasdfasdfasfafafaf",
+    "question": "What is the correct HTML element for inserting a line break?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<br>",
+      "<break>",
+      "<newline>",
+      "<lb>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<br>"
   },
   {
-    "question": "Question8",
+    "question": "Choose the correct HTML element to define important text",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<b>",
+      "<important>",
+      "<strong>",
+      "<i>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<strong>"
   },
   {
-    "question": "Question9",
+    "question": "Choose the correct HTML element to define emphasized text",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<i>",
+      "<em>",
+      "<italic>",
+      "<emphasized>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<em>"
   },
   {
-    "question": "Question10",
+    "question": "What is the correct HTML for creating a hyperlink?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<a url='http://www.w3schools.com'>W3Schools.com</a>",
+      "<a>W3Schools.com</a>",
+      "<a href='http://www.w3schools.com'>W3Schools.com</a>",
+      "<a name='http://www.w3schools.com'>W3Schools.com</a>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<a href='http://www.w3schools.com'>W3Schools.com</a>"
   },
   {
-    "question": "Question11",
+    "question": "Which character is used to indicate an end tag?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "/",
+      "*",
+      "<",
+      ">"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "/"
   },
   {
-    "question": "Question12",
+    "question": "How can you open a link in a new tab/browser window?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
+      "<a href='url' new>",
+      "<a href='url' target='_blank'>",
+      "<a href='url' target='new'>",
       "Option d"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<a href='url' target='_blank'>"
   },
   {
-    "question": "Question13",
+    "question": "Which of these elements are all <table> elements?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<table><tr><td>",
+      "<table><head><td>",
+      "<table><thead><tfoot>",
+      "<table><row><column>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<table><tr><td>"
   },
   {
-    "question": "Question14",
+    "question": "How can you make a numbered list?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<ul>",
+      "<list>",
+      "<ol>",
+      "<dl>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<ol>"
   },
   {
-    "question": "Question15",
+    "question": "How can you make a bulleted list?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<ul>",
+      "<list>",
+      "<ol>",
+      "<dl>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<ul>"
   },
   {
-    "question": "Question16",
+    "question": "What is the correct HTML for making a text input field?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<input type='text'>",
+      "<input type='textfield'>",
+      "<textfield>",
+      "<textfield type='text'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<input type='text'>"
   },
   {
-    "question": "Question17",
+    "question": "What is the correct HTML for making a checkbox?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<input type='checkbox'>",
+      "<input type='check'>",
+      "<check>",
+      "<checkbox>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<input type='checkbox'>"
   },
   {
-    "question": "Question18",
+    "question": "What is the correct HTML for making a dropdown?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<input type='list'>",
+      "<select>",
+      "<input type='dropdown'>",
+      "<list>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<select>"
   },
   {
-    "question": "Question19",
+    "question": "What is the correct HTML for making a text area?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<textarea>",
+      "<input type='textbox'>",
+      "<input type='textarea'>",
+      "<input type='text'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<textarea>"
   },
   {
-    "question": "Question20",
+    "question": "What is the correct HTML for inserting an image?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<image src='image.gif' alt='MyImage'>",
+      "<img src='image.gif' alt='MyImage'>",
+      "<image href='image.gif' alt='MyImage'>",
+      "<img href='image.gif' alt='MyImage'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<image src='image.gif' alt='MyImage'>"
   },
   {
-    "question": "Question21",
+    "question": "What is the correct HTML for inserting a background image?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<body style='background-image:url(background.gif)'>",
+      "<background img='background.gif'>",
+      "<body img='background.gif'>",
+      "<body bg='background.gif'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<body style='background-image:url(background.gif)'>"
   },
   {
-    "question": "Question22",
+    "question": "An <iframe> is used to display a web page within a web page.",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "False",
+      "True",
+      "There is no such thing as an <iframe>",
+      "Ocassionally true"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "True"
   },
   {
-    "question": "Question23",
+    "question": "HTML comments start with <!-- and end with -->",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "False",
+      "True",
+      "There is no such thing as comment",
+      "Ocassionally true"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "True"
   },
   {
-    "question": "Question24",
+    "question": "Block elements are normally displayed without starting a new line.",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "False",
+      "True",
+      "There is no such thing>",
+      "Ocassionally true"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "False"
   },
   {
-    "question": "Question25",
+    "question": "Which HTML element defines the title of a document?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<title>",
+      "<meta>",
+      "<head>",
+      "<body>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<title>"
   },
   {
-    "question": "Question26",
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "longdesc",
+      "alt",
+      "title",
+      "src"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "alt"
   },
   {
-    "question": "Question27",
+    "question": "Which doctype is correct for HTML5?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<!DOCTYPE HTML5>",
+      "<!DOCTYPE html5>",
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<!DOCTYPE html>"
   },
   {
-    "question": "Question28",
+    "question": "Which HTML element is used to specify a footer for a document or section?",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
-      "Option d"
+      "<bottom>",
+      "<footer>",
+      "<section>",
+      "<below>"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<footer>"
   },
   {
-    "question": "Question29",
+    "question": "In HTML, you can embed SVG elements directly into an HTML page.",
     "options": [
-      "Option a",
-      "Option b",
-      "Option c",
+      "False",
+      "True",
+      "There is no such thing as an SVG",
+      "Ocassionally true"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "True"
+  },  {
+    "question": "What is the correct HTML element for playing video files?",
+    "options": [
+      "<video>",
+      "<movie>",
+      "<media>",
+      "Not possible"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<video>"
+  },
+  {
+    "question": "What is the correct HTML element for playing audio files?",
+    "options": [
+      "<audio>",
+      "<mp3>",
+      "<sound>",
+      "not possible"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<audio>"
+  },
+  {
+    "question": "The HTML global attribute, 'contenteditable' is used to:",
+    "options": [
+      "Specifies a context menu for an element. The menu appears when a user right-clicks on the element",
+      "Update content from the server",
+      "Return the position of the first found occurrence of content inside a string",
+      "Specify whether the content of an element should be editable or not"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Specify whether the content of an element should be editable or not"
+  },
+  {
+    "question": "In HTML, onblur and onfocus are:?",
+    "options": [
+      "Event Attributes",
+      "Style Attributes",
+      "HTML Elements",
+      "not belongs an attributes"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Event Attributes"
+  },
+  {
+    "question": "Graphics defined by SVG is in which format?",
+    "options": [
+      "XML",
+      "CSS",
+      "HTML",
+      "None of the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "XML"
+  },
+  {
+    "question": "The HTML <canvas> element is used to:",
+    "options": [
+      "display database records",
+      "create draggable elements",
+      "manipulate date in MySQL",
+      "draw graphics"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "draw graphics"
+  },
+  {
+    "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
+    "options": [
+      "form validate",
+      "placeholder",
+      "required",
+      "validate"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "required"
+  },
+  {
+    "question": "Which input type defines a slider control?",
+    "options": [
+      "slider",
+      "search",
+      "range",
+      "controls"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "range"
+  },
+  {
+    "question": "Which HTML element is used to display a scalar measurement within a range?",
+    "options": [
+      "<range>",
+      "<guage>",
+      "<measure>",
+      "<meter>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<meter>"
+  },
+  {
+    "question": "Which HTML element defines navigation links?",
+    "options": [
+      "<navigation>",
+      "<nav>",
+      "<navigator>",
+      "<well>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<nav>"
+  },
+  {
+    "question": "In HTML, what does the <aside> element define?",
+    "options": [
+      "A navigation list to be shown at the left side of the page",
+      "The ASCII character-set; to send information between computers on the Internet",
+      "Content aside from the page content",
+      "None of the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Content aside from the page content"
+  },
+  {
+    "question": "Which HTML element is used to specify a header for a document or section?",
+    "options": [
+      "<section>",
+      "<top>",
+      "<head>",
+      "<header>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<header>"
+  },
+  {
+    "question": "How can you open a link in a new tab/browser window?",
+    "options": [
+      "<a href='url' new>",
+      "<a href='url' target='_blank'>",
+      "<a href='url' target='new'>",
       "Option d"
     ],
     "selectedAnswer": "",
-    "orginalAnswer": ""
+    "orginalAnswer": "<a href='url' target='_blank'>"
+  },
+  {
+    "question": "Which of these elements are head elements?",
+    "options": [
+      "<meta>",
+      "<link>",
+      "<base>",
+      "All the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All the above"
+  },
+  {
+    "question": "which of the following is described by title tag?",
+    "options": [
+      "defines a title in the browser tab",
+      "provides a title for the page when it is added to favorites",
+      "displays a title for the page in search engine results",
+      "All of the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All of the above"
+  },
+  {
+    "question": "what are the uses of meta tag?",
+    "options": [
+      "page description",
+      "key words",
+      "specify which character set is used",
+      "All of the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All of the above"
+  },
+  {
+    "question": "How to refresh document every 30 seconds using meta tag?",
+    "options": [
+      "<meta refresh='30'>",
+      "<meta http-equiv='refresh' content='30'>",
+      "<meata rate='30'>",
+      "Not possible using meta tag"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<meta http-equiv='refresh' content='30'>"
+  },
+  {
+    "question": "How to define author of the HTML page?",
+    "options": [
+      "<meta name='author' content='John Doe'>",
+      "<meta name='John Doe'>",
+      "<meta author='John Doe'>",
+      "<meta 'John Doe'>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<meta name='author' content='John Doe'>"
+  },
+  {
+    "question": "How to define description of the web page?",
+    "options": [
+      "<meta description='Free Web tutorials'>",
+      "<meta name='description' content='Free Web tutorials'>",
+      "<description>Free Web tutorials</description>",
+      "<title>Free Web tutorials</title>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<meta name='description' content='Free Web tutorials'>"
+  },
+  {
+    "question": "How to define keywords for search engines?",
+    "options": [
+      "<meta name='keywords' content='HTML, CSS, XML, JavaScript'>",
+      "<keywords>HTML, CSS, XML, JavaScript</keywords>",
+      "<meta name='HTML, CSS, XML, JavaScript'>",
+      "<meta keywords='HTML, CSS, XML, JavaScript'>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<meta name='keywords' content='HTML, CSS, XML, JavaScript'>"
+  },
+  {
+    "question": "What does 'width=device-width' attribute in meta tag do?",
+    "options": [
+      "sets the width of the page to follow the screen-width of the device",
+      "sets the any width of the page to 1024*768 resolution",
+      "makes page responsive",
+      "restrict user not to control the page's dimensions and scaling"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "sets the width of the page to follow the screen-width of the device"
+  },
+  {
+    "question": "What is The Viewport?",
+    "options": [
+      "The viewport is the user's visible area of a web page",
+      "The viewport is used for communication between pages",
+      "The viewport is used to insert data to MYSQL",
+      "The viewport is used to load data from server"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "The viewport is the user's visible area of a web page"
+  },
+  {
+    "question": "Which of the following is not a semantic element",
+    "options": [
+      "div",
+      "span",
+      "section",
+      "Both 1 and 2"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Both 1 and 2"
+  },
+  {
+    "question": "What is the default font style of <code> Element",
+    "options": [
+      "monospace",
+      "Italic",
+      "Calibri",
+      "Verdana"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "monospace"
+  },
+  {
+    "question": "What are reserved characters in HTML?",
+    "options": [
+      "<",
+      ">",
+      "&",
+      "All the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All the above"
+  },
+  {
+    "question": "Which of the following is a html plugin element?",
+    "options": [
+      "<object>",
+      "<meta>",
+      "<head>",
+      "<audio>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<object>"
+  },
+  {
+    "question": "Which of the following are true about Web Worker?",
+    "options": [
+      "A web worker is a JavaScript running in the background, without affecting the performance of the page.",
+      "When executing scripts in an HTML page, the page becomes unresponsive until the script is finished.",
+      "A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page.",
+      "All the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All the above"
+  },
+  {
+    "question": "How to terminate the web worker w. Where w = new Worker('demo_workers.js'); ",
+    "options": [
+      "w.terminate();",
+      "w = undefined;",
+      "w.end()",
+      "Both 1 & 2"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Both 1 & 2"
+  },
+  {
+    "question": "what does SSE stands for in HTML?",
+    "options": [
+      "Server-Sent Events",
+      "Server-Side Events",
+      "Server Subcribed Events",
+      "Single Source Encryption"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Server-Sent Events"
+  },
+  {
+    "question": "which of the below not have accessed by Web Workers",
+    "options": [
+      "window object",
+      "document object",
+      "parent object",
+      "All the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All the above"
+  },
+  {
+    "question": "How to create a mailto link in HTML?",
+    "options": [
+      "<a href='mailto:someone@example.com' target='_top'>Send Mail</a>",
+      "<a mailto='someone@example.com' target='_top'>Send Mail</a>",
+      "<a target='mailto:someone@example.com'>Send Mail</a>",
+      "<mailto>someone@example.com</mailto>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<a href='mailto:someone@example.com' target='_top'>Send Mail</a>"
+  },
+  {
+    "question": "What are the tags used in image mapping?",
+    "options": [
+      "img",
+      "area",
+      "map",
+      "All the above"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "All the above"
+  },
+  {
+    "question": "what is the code for Copyright symbol in HTML?",
+    "options": [
+      "&copy;",
+      "& #169;",
+      "&169",
+      "Both 1 and 2"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "Both 1 and 2"
+  },
+  {
+    "question": "What does <wbr> tag specifies?",
+    "options": [
+      "where in a text it would be ok to add a line-break.",
+      "where in a page it would be ok to add a line-break.",
+      "where in a table it would be ok to add a line-break.",
+      "where in a window it would be ok to add a line-break."
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "where in a text it would be ok to add a line-break."
+  },
+  {
+    "question": "default display style of ASIDE element?",
+    "options": [
+      "block",
+      "inline",
+      "inline-block",
+      "flex"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "block"
+  },
+  {
+    "question": "Which of the following is not supported in HTML5?",
+    "options": [
+      "<object>",
+      "<noframes>",
+      "<head>",
+      "<audio>"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "<noframes>"
+  },
+  {
+    "question": "Which of the following is not an http method?",
+    "options": [
+      "HEAD",
+      "ADD",
+      "PATCH",
+      "OPTIONS"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "ADD"
+  },
+  {
+    "question": "Which of the followiing is not a HTML Tag?",
+    "options": [
+      "del",
+      "ins",
+      "kbd",
+      "trt"
+    ],
+    "selectedAnswer": "",
+    "orginalAnswer": "trt"
   }
 ]

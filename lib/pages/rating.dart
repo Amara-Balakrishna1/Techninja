@@ -47,7 +47,7 @@ class _RatingpageState extends State<Ratingpage> {
                       });
                     },
                     rating: rating,
-                    starCount: 5,
+                    starCount: 3,
                     size: 60.0,
                     filledIconData: Icons.star,
                     halfFilledIconData: Icons.star_half,
@@ -59,7 +59,9 @@ class _RatingpageState extends State<Ratingpage> {
                 child: RaisedButton(
                   color: Colors.blue,
                   onPressed: () {
-                    Navigator.of(context).pushNamed('/Questions');
+                    int ratin = rating.round() == 0 ? 1 : rating.round();
+                    Navigator.of(context)
+                        .pushNamed('/Questions', arguments: ratin);
                   },
                   child: Text(
                     'Start',

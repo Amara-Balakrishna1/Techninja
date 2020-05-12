@@ -1,7 +1,11 @@
 import "package:flutter/material.dart";
 
 class Result extends StatelessWidget {
+  final double percentage;
+  Result ({Key key, this.percentage}): super(key:key);
+  
   Widget build(BuildContext context) {
+    double showMarks = percentage*100;
     return Container(
         color: Colors.white,
         child: SafeArea(
@@ -12,7 +16,7 @@ class Result extends StatelessWidget {
             padding: EdgeInsets.all(40.0),
             child: Center(
               child: Text(
-                  "Congratulations you have successfully completed test",
+                  "Congratulations you have successfully completed test and got $showMarks %",
                   style: TextStyle(
                       decoration: TextDecoration.none,
                       fontWeight: FontWeight.normal,
